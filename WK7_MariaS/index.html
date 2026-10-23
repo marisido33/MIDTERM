@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Arizona High Schools and Catholic Churches Point Map</title>
+  <title>Arizona High Schools and Catholic Churches Map</title>
   <style>
     html,
     body {
@@ -44,13 +44,16 @@
     }
   </style>
   
-  <!-- Google Maps JavaScript API (Callback links to initMap inside app.js) -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8ZUaumi3SMP0xZrs511OPVh_-x8XAHMo&v=weekly&callback=initMap"></script>
+  <!-- 1. Load app.js first so initMap is defined globally -->
+  <script src="app.js"></script>
+
+  <!-- 2. Load Google Maps API with loading=async and callback -->
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8ZUaumi3SMP0xZrs511OPVh_-x8XAHMo&v=weekly&loading=async&callback=initMap"></script>
 </head>
 
 <body>
 
-  <h1>Arizona High Schools & Catholic Churches Point Map</h1>
+  <h1>Arizona High Schools & Catholic Churches Map</h1>
   
   <div id="controls">
     <strong>Layer Controls:</strong>
@@ -59,11 +62,8 @@
   </div>
 
   
-  
   <div id="map"></div>
 
-  <!-- Link to the external JavaScript file -->
-  <script src="app.js"></script>
 </body>
 
 </html>

@@ -53,56 +53,56 @@ var churches = [
 ];
 
 var schools = [
-  {name:"School:Roskruge Bilingual Magnet School", lat:32.22861, lon:-110.96333},
-  {name:"School:C E Rose Elementary School", lat:32.17111, lon:-110.97917},
-  {name:"School:Rolle School", lat:32.67806, lon:-114.59389},
-  {name:"School:Roosevelt School", lat:33.39167, lon:-112.06639},
-  {name:"School:Bicentennial Union High School", lat:33.775, lon:-113.60361},
-  {name:"School:Roosevelt School", lat:32.2375, lon:-110.97361},
-  {name:"School:Rocky Ridge School", lat:36.07194, lon:-110.59306},
-  {name:"School:Rogers Elementary School", lat:32.21528, lon:-110.86444},
-  {name:"School:Salt River Indian Day School", lat:33.46667, lon:-111.86389},
-  {name:"School:Rock Point Boarding School", lat:36.71694, lon:-109.62028},
-  {name:"School:Rose Lane Junior High School", lat:33.52667, lon:-112.05722},
-  {name:"School:Roosevelt School", lat:32.71806, lon:-114.62611},
-  {name:"School:Saint Ambrose School", lat:32.21833, lon:-110.93611},
-  {name:"School:Saint Johns Indian School", lat:33.29, lon:-112.17361},
-  {name:"School:Saint Isabel Mission", lat:36.41833, lon:-109.23111},
-  {name:"School:Riverside School", lat:33.43444, lon:-112.17056},
-  {name:"School:Saint Francis School", lat:32.69444, lon:-114.6275},
-  {name:"School:Ritter School", lat:33.41972, lon:-111.92694},
-  {name:"School:Saint Cyril School", lat:32.24389, lon:-110.89111},
-  {name:"School:Royal Palm School", lat:33.56222, lon:-112.1},
-  {name:"School:Saint Johns School", lat:32.17861, lon:-110.97833},
-  {name:"School:Saint Thomas School", lat:33.50417, lon:-112.03111},
-  {name:"School:Rucker School", lat:31.74361, lon:-109.48056},
-  {name:"School:Sahuaro School", lat:33.60306, lon:-112.12917},
-  {name:"School:Sahuaro School", lat:32.24028, lon:-111.08583},
-  {name:"School:Rural School", lat:33.39417, lon:-111.92472},
-  {name:"School:Saints Peter and Paul School", lat:32.24, lon:-110.94361},
-  {name:"School:Richey Elementary School", lat:32.24833, lon:-110.98278},
-  {name:"School:Barcelona School", lat:33.53167, lon:-112.15472},
-  {name:"School:Reina Cleri Seminary", lat:32.20361, lon:-110.80361},
-  {name:"School:Safford Junior High School", lat:32.21806, lon:-110.96639},
-  {name:"School:Rincon High School", lat:32.2275, lon:-110.88861},
-  {name:"School:Robison Elementary School", lat:32.21306, lon:-110.93139},
-  {name:"School:Saint Josephs School", lat:32.21917, lon:-110.87417},
-  {name:"School:Rough Rock Demonstration School", lat:36.4075, lon:-109.86083},
-  {name:"School:Saint Peters Mission School", lat:33.13611, lon:-111.87472},
-  {name:"School:Red Rock School", lat:36.59806, lon:-109.05806},
-  {name:"School:Saint Simon and Jude School", lat:33.53111, lon:-112.11583},
-  {name:"School:Saint Josephs Academy", lat:32.2275, lon:-110.84972},
-  {name:"School:Saint Patrick School", lat:31.44306, lon:-109.92167},
-  {name:"School:White Elementary School", lat:32.15139, lon:-111.01722},
-  {name:"School:Thompson Valley School", lat:34.42167, lon:-112.91556},
-  {name:"School:Elfrida Elementary School", lat:31.68611, lon:-109.67972},
-  {name:"School:Xavier High School", lat:33.50528, lon:-112.06778},
-  {name:"School:Apollo High School", lat:33.55472, lon:-112.15944},
-  {name:"School:Bethune School", lat:33.43361, lon:-112.09167},
-  {name:"School:Winter Wells School", lat:33.4225, lon:-112.86833},
-  {name:"School:Huachuca City School", lat:31.63222, lon:-110.33278},
-  {name:"School:Bowie Elementary School", lat:32.32472, lon:-109.48806},
-  {name:"School:Pirtleville School", lat:31.36056, lon:-109.56861}
+  {name:"Roskruge Bilingual Magnet School", lat:32.22861, lon:-110.96333},
+  {name:"C E Rose Elementary School", lat:32.17111, lon:-110.97917},
+  {name:"Rolle School", lat:32.67806, lon:-114.59389},
+  {name:"Roosevelt School", lat:33.39167, lon:-112.06639},
+  {name:"Bicentennial Union High School", lat:33.775, lon:-113.60361},
+  {name:"Roosevelt School", lat:32.2375, lon:-110.97361},
+  {name:"Rocky Ridge School", lat:36.07194, lon:-110.59306},
+  {name:"Rogers Elementary School", lat:32.21528, lon:-110.86444},
+  {name:"Salt River Indian Day School", lat:33.46667, lon:-111.86389},
+  {name:"Rock Point Boarding School", lat:36.71694, lon:-109.62028},
+  {name:"Rose Lane Junior High School", lat:33.52667, lon:-112.05722},
+  {name:"Roosevelt School", lat:32.71806, lon:-114.62611},
+  {name:"Saint Ambrose School", lat:32.21833, lon:-110.93611},
+  {name:"Saint Johns Indian School", lat:33.29, lon:-112.17361},
+  {name:"Saint Isabel Mission", lat:36.41833, lon:-109.23111},
+  {name:"Riverside School", lat:33.43444, lon:-112.17056},
+  {name:"Saint Francis School", lat:32.69444, lon:-114.6275},
+  {name:"Ritter School", lat:33.41972, lon:-111.92694},
+  {name:"Saint Cyril School", lat:32.24389, lon:-110.89111},
+  {name:"Royal Palm School", lat:33.56222, lon:-112.1},
+  {name:"Saint Johns School", lat:32.17861, lon:-110.97833},
+  {name:"Saint Thomas School", lat:33.50417, lon:-112.03111},
+  {name:"Rucker School", lat:31.74361, lon:-109.48056},
+  {name:"Sahuaro School", lat:33.60306, lon:-112.12917},
+  {name:"Sahuaro School", lat:32.24028, lon:-111.08583},
+  {name:"Rural School", lat:33.39417, lon:-111.92472},
+  {name:"Saints Peter and Paul School", lat:32.24, lon:-110.94361},
+  {name:"Richey Elementary School", lat:32.24833, lon:-110.98278},
+  {name:"Barcelona School", lat:33.53167, lon:-112.15472},
+  {name:"Reina Cleri Seminary", lat:32.20361, lon:-110.80361},
+  {name:"Safford Junior High School", lat:32.21806, lon:-110.96639},
+  {name:"Rincon High School", lat:32.2275, lon:-110.88861},
+  {name:" Robison Elementary School", lat:32.21306, lon:-110.93139},
+  {name:"Saint Josephs School", lat:32.21917, lon:-110.87417},
+  {name:"Rough Rock Demonstration School", lat:36.4075, lon:-109.86083},
+  {name:"Saint Peters Mission School", lat:33.13611, lon:-111.87472},
+  {name:"Red Rock School", lat:36.59806, lon:-109.05806},
+  {name:"Saint Simon and Jude School", lat:33.53111, lon:-112.11583},
+  {name:"Saint Josephs Academy", lat:32.2275, lon:-110.84972},
+  {name:"Saint Patrick School", lat:31.44306, lon:-109.92167},
+  {name:"White Elementary School", lat:32.15139, lon:-111.01722},
+  {name:"Thompson Valley School", lat:34.42167, lon:-112.91556},
+  {name:"Elfrida Elementary School", lat:31.68611, lon:-109.67972},
+  {name:"Xavier High School", lat:33.50528, lon:-112.06778},
+  {name:"Apollo High School", lat:33.55472, lon:-112.15944},
+  {name:"Bethune School", lat:33.43361, lon:-112.09167},
+  {name:"Winter Wells School", lat:33.4225, lon:-112.86833},
+  {name:"Huachuca City School", lat:31.63222, lon:-110.33278},
+  {name:"Bowie Elementary School", lat:32.32472, lon:-109.48806},
+  {name:"Pirtleville School", lat:31.36056, lon:-109.56861}
 ];
 
 let map;
@@ -137,7 +137,6 @@ function initMap() {
       infoWindow.setContent(`
         <div style="font-family: Arial; font-size: 13px;">
           <strong>${place.name}</strong><br>
-          <strong>Category:</strong> Catholic Church<br>
           <strong>Latitude:</strong> ${place.lat}<br>
           <strong>Longitude:</strong> ${place.lon}
         </div>
@@ -161,7 +160,6 @@ function initMap() {
       infoWindow.setContent(`
         <div style="font-family: Arial; font-size: 13px;">
           <strong>${place.name}</strong><br>
-          <strong>Category:</strong> Educational Institution<br>
           <strong>Latitude:</strong> ${place.lat}<br>
           <strong>Longitude:</strong> ${place.lon}
         </div>
