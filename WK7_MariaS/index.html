@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Arizona High Schools and Catholic Churches Point Map</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      margin: 10px 15px;
+      font-size: 22px;
+    }
+
+    #controls {
+      padding: 10px 15px;
+      background: #f8f9fa;
+      font: 14px Arial, sans-serif;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    #analysis-box {
+      padding: 12px 15px;
+      background: #e9ecef;
+      font-size: 13px;
+      border-bottom: 1px solid #ccc;
+      line-height: 1.4;
+    }
+
+    #map {
+      flex-grow: 1;
+      width: 100%;
+    }
+  </style>
+  
+  <!-- Google Maps JavaScript API (Callback links to initMap inside app.js) -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8ZUaumi3SMP0xZrs511OPVh_-x8XAHMo&v=weekly&callback=initMap"></script>
+</head>
+
+<body>
+
+  <h1>Arizona High Schools & Catholic Churches Point Map</h1>
+  
+  <div id="controls">
+    <strong>Layer Controls:</strong>
+    <label><input id="toggle-schools" type="checkbox" checked /> High Schools (Red Markers)</label>
+    <label><input id="toggle-churches" type="checkbox" checked /> Catholic Churches (Blue Markers)</label>
+  </div>
+
+  
+  
+  <div id="map"></div>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="app.js"></script>
+</body>
+
+</html>
