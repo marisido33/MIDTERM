@@ -1,6 +1,6 @@
 # GIST5300 Midterm website
 ## Maria Sidorenko
-### [Midterm Website](https://marisido33.github.io/MIDTERM/)
+### [Midterm Website](https://marisido33.github.io/MIDTERM/mid/index.html)
 
 ## Chosen Datasets
 - Catholic Churches in Arizona:  shows the distribution of religious institutions in Arizona that serve local communities by providing worship services, education and other community resources. Mapping these locations helps reveal patterns in religious infrastructure and how churches are distributed across urban and rural areas.
