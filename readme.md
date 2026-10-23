@@ -1,6 +1,6 @@
 # GIST5300 Midterm website
 ## Maria Sidorenko
-
+### [Midterm Website](https://marisido33.github.io/MIDTERM/index.html)
 ## Chosen Datasets
 - Catholic Churches in Arizona: shows the locations of the Catholic Churches in the state of Arizona.
 - High Schools in Arizona: shows the locations of the High Schools in the state of Arizona.
