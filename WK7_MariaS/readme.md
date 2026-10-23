@@ -9,4 +9,8 @@ I think it is interesting to see if there is any correlation between schools and
 
 
 
-A comparative spatial distribution analysis of high schools and Catholic churches across Arizona reveals heavy clustering within major urban centers, specifically Maricopa County (Phoenix metropolitan area) and Pima County (Tucson). The close proximity and co-location of educational institutions and religious sites in these urban hubs indicate robust community service infrastructure and high demographic demand. Conversely, rural and tribal regions exhibit sparse, dispersed distributions, reflecting lower population density and greater geographic isolation.
+Comparing spatial distribution of High Schools and Catholic Churches in Arizona shows heavy clustering within major urban centers, specifically Maricopa County (Phoenix) and Pima County (Tucson). The close proximity of schools and churches in these urban areas indicate great community service infrastructure and high demographic demand. 
+
+On the other hand, rural and tribal regions show lower distributions, indicating lower population density and greater geographic isolation.
+
+In conclusion, both schools and churches are often near each other because both serve local communities.
